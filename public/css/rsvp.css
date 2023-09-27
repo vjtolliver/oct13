@@ -1,0 +1,40 @@
+.check-in {
+    color: orangered;
+    font-family: 'Nosifer', cursive;
+}
+
+.name-input {
+    width: 400px;
+    
+}
+
+.going {
+    color: orange;
+    font-family: 'Nosifer', cursive;
+    font-size: 75px;
+}
+
+.first-name {
+    color: blueviolet;
+    font-family: 'Nosifer', cursive;
+    font-size: 75px;
+}
+
+.explanation {
+    color: orange;
+}
+
+.cash-app {
+    color: orange;
+    font-weight: bold;
+}
+
+.apple-pay {
+    color: orange;
+    font-weight: bold;
+}
+
+.accom-ex {
+    color: orange;
+    
+}

@@ -1,0 +1,103 @@
+<head>
+  <link rel='stylesheet' type='text/css' href='/css/weather.css' />
+</head>
+
+<br>
+<br>
+<br>
+
+<section class= "" id="savedlctns" >
+
+    <button class="autolctn">Washington DC</button>
+    <button class="autolctn">Oxon Hill</button>
+    <button class="autolctn">Woodbridge</button>
+        
+      </section>
+
+      <!-- Section .container-weather row col-?-9 -->
+    <div class="container-weather row col-md-12">
+        <!-- Selected City Api Code -->
+        <section id="current-city">
+            <h1 class="city-name"></h1>
+            <p id="date"></p>
+            <p class="date"></p>
+            <br>
+            <div id="weathericon"> 
+                <img id="weather-icon" src=""> 
+            </div>
+            <br>
+            <p class="city-temp"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+        </section>
+        <br>
+        <!-- Heading 3 - 5-Day Forecast: -->
+        <!-- 5-Day API Code -->
+        <section id="fiveday">
+            <h3 col-md-2>Five Day Forecast: </h3>
+            <br>
+            <div class="row">
+            
+            <section class="day-zero col-md-1"></section>
+            <section class="day-one col-md-2">
+            <p class="d-one-icon">
+                <img id="d-one-icon" src="">
+            </p>
+            <br>
+            <p class="d-one-temp"></p>
+            <p class="d-one-hum"></p>
+            <p class="d-one-wind"></p>
+            </section>
+
+            <section class="day-two col-md-2">
+                <p class="d-two-icon">
+                    <img id="d-two-icon" src="">
+                </p>
+            <br>
+            <p class="d-two-temp"></p>
+            <p class="d-two-hum"></p>
+            <p class="d-two-wind"></p>
+            </section>
+
+            <section class="day-thr col-md-2">
+                <p class="d-thr-icon">
+                    <img id="d-thr-icon" src="">
+                </p>
+            <br>
+            <p class="d-thr-temp"></p>
+            <p class="d-thr-hum"></p>
+            <p class="d-thr-wind"></p>
+            </section>
+
+            <section class="day-four col-md-2">
+                <p class="d-four-icon">
+                    <img id="d-four-icon" src="">
+                </p>
+            <br>
+            <p class="d-four-temp"></p>
+            <p class="d-four-hum"></p>
+            <p class="d-four-wind"></p>
+            </section>
+
+            <section class="day-five col-md-2">
+                <p class="d-five-icon">
+                    <img id="d-five-icon" src="">
+                </p>
+            <br>
+            <p class="d-five-temp"></p>
+            <p class="d-five-hum"></p>
+            <p class="d-five-wind"></p>
+            </section>
+
+            <section class="day-na col-md-1"></section>
+            </div>
+        </section>
+        
+    </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js" integrity="sha512-hcV6DX35BKgiTiWYrJgPbu3FxS6CsCjKgmrsPRpUPkXWbvPiKxvSVSdhWX0yXcPctOI2FJ4WP6N1zH+17B/sAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/open-weather/2.0.0/openweather.min.js" integrity="sha512-mlRoH3bU+q4t5clJkMwltJcka6JyNWsUJybBclHUiU0Bdux6LtcNqO8XMNi9/vp4+KCteAbc0hYnHU4Rh2SH+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./weather.js"></script>
+      <script src="./script.js"></script>

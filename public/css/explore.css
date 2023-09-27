@@ -1,0 +1,44 @@
+#explore-sections {
+    color: antiquewhite;
+}
+
+.explore-ttl {
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: 'Nosifer', cursive;
+    text-decoration: underline;
+}
+
+.explore-topic-o a {
+    font-size: 10px;
+    color: orange;
+    font-family: 'Nosifer', cursive;
+    text-decoration: none;
+}
+
+.explore-topic-p a {
+    font-size: 10px;
+    color: blueviolet;
+    font-family: 'Nosifer', cursive;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.cats-o {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 75px;
+    font-family: 'Nosifer', cursive;
+}
+
+.cats-p {
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 75px;
+    font-family: 'Nosifer', cursive;
+}

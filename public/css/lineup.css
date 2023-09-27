@@ -1,0 +1,40 @@
+/* .accordion {
+    background-color: black;
+}
+.accordion-item {
+    background-color: black;
+}
+
+.accordion-header {
+    background-color: black;
+}
+
+.accordion-button {
+    background-color: black;
+}
+
+.collapsed {
+    background-color: black;
+} */
+
+/* button {
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 75px;
+    font-family: 'Nosifer', cursive;
+} */
+
+.bdate {
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    color: orange;
+}
+
+.btext {
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
+}

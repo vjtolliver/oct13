@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.ttl {
+    font-family: 'Nosifer', cursive;
+    color: orangered;
+    text-decoration: underline;
+}
+
+.nv-ttl {
+    font-family: 'Nosifer', cursive;
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-link {
+    font-family: 'Nosifer', cursive;
+    color: blueviolet;
+}
+
+
+#day-countdown {
+    font-size: 225px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: orangered;
+}
+
+#time-count {
+    font-size: 95px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: orangered;
+}

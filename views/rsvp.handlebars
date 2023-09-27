@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/rsvp.css" />
+</head>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="rsvp">
+
+    <h2 class="check-in row justify-content-center">Check In:</h2>
+
+    <br>
+    <form class="guest-rsvp">
+        <div class="input-group mb-3">
+          <input type="text" name="name" class="form-control" id="rsvpname" placeholder="Please Enter Your Name or Nickname" aria-label="Nickname" aria-describedby="basic-addon1">
+          <input type="text" name="attendance" class="form-control" id="attend-status" placeholder="Please Enter 'Attending' or 'Not Attending'. " aria-label="Attendance" aria-describedby="basic-addon1">
+          <br>
+          <!-- <input type="text" name="email" placeholder="Enter Email Address"> -->
+        </div>
+    </form>
+
+    <br>
+    <br>
+
+    <button type="submit" class="btn btn-dark" id="submitplease" value="Send">SUBMIT</button>
+</div>
+
+<div class="row submitted">
+
+        <p class="going" id="going"></p>
+
+        <p class="first-name" id="first-name"></p>
+
+        <p class="explanation" id="explanation"></p>
+        <p class="cash-app" id="cash-app"></p>
+        <p class="apple-pay" id="apple-pay"></p>
+        <br>
+
+        <p class="accom-ex" id="accom-ex"></p>
+
+      </div>
+      {{#each guests as |guest| }}
+      <div class="theguestlist">
+        <p>{{guest.name}}</p>
+        <br>
+        <p>{{guest.status}}</p>
+      </div>
+      {{/each}}
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      <script src='/rsvp.js'></script>
