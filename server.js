@@ -39,6 +39,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
-sequelize.sync({ force: false }).then(() => {
+sequelize.authenticate({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening to RSVP and', PORT));
 });
