@@ -17,8 +17,13 @@ app.use("/css", express.static(path.join(__dirname, "/public/css")));
 
 
 const sess = {
-  secret: 'Super secret secret',
-  cookie: {},
+  secret: process.env.SESS_SECRET,
+  cookie: {
+    maxAge: 360000,
+    httpOnly: false,
+    secure: false,
+    sameSite: "strict",
+  },
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
