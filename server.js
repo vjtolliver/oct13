@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -11,7 +11,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3001;
 app.use("/css", express.static(path.join(__dirname, "/public/css")));
 
 
